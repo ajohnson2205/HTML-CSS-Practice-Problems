@@ -3,6 +3,9 @@
     height: 375px;
     background: #F7F1E7;
     position: relative;
+    display: block;
+    align-items: center;
+
 }
 
 .top-header {
@@ -10,6 +13,9 @@
     height: 70px;
     text-align: center;
     background: #D8D8D8;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 /*  Step-1 You need to get all of these elements to line up side by side. What display property would do this for you? */
@@ -23,7 +29,6 @@
 .logo {
     width: 300px;
     height: 40px;
-    margin-top: 10px;
     background: #536A63;
 }
 
@@ -38,6 +43,9 @@
 .bottom-container {
     width: 60%;
     height: 60px;
-    left: 22%;
     background: #536A63;
+    position:absolute;
+    bottom: -30px;
+    left: 20%;
+
 }
